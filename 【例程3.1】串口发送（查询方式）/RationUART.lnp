@@ -1,0 +1,4 @@
+--cpu Cortex-M0 "startup_lpc11xx.o" "system_lpc11xx.o" "main.o" "uart.o" --library_type=microlib --strict --scatter "RationUART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RationUART.map" -o "RationUART.axf"
